@@ -384,7 +384,10 @@ Small Device Styles
   body {
     font-size:14px;
   }
-
+    #logo {
+        display: none;
+    }
+    
   #downloads {
     display: none;
   }
