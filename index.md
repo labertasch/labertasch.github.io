@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 layout: default
 title: About
@@ -13,3 +14,9 @@ You can find the source code for the Jekyll new theme at:
 You can find the source code for Jekyll at
 {% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll)
+=======
+---
+layout: home
+---
+### www.senol.io
+>>>>>>> 375b8ca276563d691370f36ac9042be1df5f29b8

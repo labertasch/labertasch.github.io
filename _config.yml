@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -32,3 +33,13 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+=======
+title: www.senol.io
+description: 
+google_analytics: 
+show_downloads: true
+theme: minima
+
+gems:
+  - jekyll-mentions
+>>>>>>> 375b8ca276563d691370f36ac9042be1df5f29b8
