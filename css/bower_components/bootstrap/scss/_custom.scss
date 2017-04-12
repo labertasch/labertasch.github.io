@@ -1,0 +1,18 @@
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+$custom-primary:#000000;//007A96#E37A1B;// #000000;//#007A96;// rgba(221,122,27,0.9);
+$link-color:   $custom-primary;
+$link-hover-color:      rgba(221,122,27,1);
+$link-hover-decoration: none;
+
+$btn-primary-bg:       $custom-primary;
+$btn-primary-border:   $custom-primary;
+$pagination-active-bg: $link-hover-color;
+$pagination-active-border: $pagination-active-bg;
+$pagination-color: $pagination-active-bg;
+//$navbar-light-active-color:  #964C09;// #E37A1B;//#007A96;
+//$navbar-light-color: #E37A1B;
+//$navbar-light-hover-color: $navbar-light-active-color;
+//$navbar-light-active-color:    #F0AF11;

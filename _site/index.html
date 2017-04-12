@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="icon" href="/images/icon.svc" type="image/x-icon"/>
+<link rel="shortcut icon" href="/images/icon.svc.ico" type="image/x-icon"/>
+  </head>
+  <body>
+
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="/"><img src="/images/icon.svg" width="30" height="30" class="d-inline-block align-top" alt="Senol.io home" title="www.senol.io"></a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <li class="nav-item ">
+                <a href="/about/" class="nav-link">
+                  About
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item ">
+                <a href="/cv/" class="nav-link">
+                  Biography
+                </a>
+              </li>
+            
+          
+
+    </ul>
+  </div>
+
+</nav>
+
+    <div class="jumbotron jumbotron-fluid hero">
+      <div class="container">
+        <h1 class="display-3">Simplicity Matters</h1>
+        <p class="lead">A not always sorted braindump about technology and other topics I'm having in my mind</p>
+      </div>
+    </div>
+
+
+
+    <!--% for post in site.posts %
+    <div class="container post">
+      <h1 class="main display-3"><a href=""></a></h1>
+      <p class="lead"></p>
+      <p></p>
+    </div>
+    % endfor %-->
+
+
+    <!-- This loops through the paginated posts -->
+
+    
+    <div class="container post">
+
+        
+        <h1 class="main display-3"><a href="/blog/2017/03/22/welcome-to-jekyll.html">Welcome to Jekyll!</a></h1>
+        
+        <p class="lead">22 March 2017</p>
+        <p><p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
+<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+
+<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
+</p>
+      </div>
+    
+    <div class="container post">
+
+        
+        <h1 class="main display-3"><a href="/blog/2015/09/13/aemgoingsupersonic.html">AEM: Going Supersonic</a></h1>
+        
+        <p class="lead">13 September 2015</p>
+        <p><blockquote class="blockquote">
+<strong>Disclaimer</strong>
+<p>most of what I will say is my personal opinion and view</p>
+</blockquote>
+
+<h2 id="what-is-going-supersonic">What is going Supersonic?</h2>
+
+<ul>
+  <li>Time to Market</li>
+  <li>Performance Scalability</li>
+  <li>…</li>
+</ul>
+
+<p>And we are sure, there are many other valid definitions out there - aren’t there?</p>
+
+<h2 id="time-to-market">Time To Market</h2>
+<p>The Time it takes - from the Marketers Idea - to Development - to Production
+It could also be:</p>
+
+<h2 id="performance">Performance</h2>
+<p>The Time it takes to use and load the application in production</p>
+
+<h2 id="scalability">Scalability</h2>
+<p>and/or the possibility to scale the application for a bigger audience or more/heavy usage.</p>
+
+<h2 id="what-do-we-deliver">What do we deliver?</h2>
+<ul>
+  <li>Websites</li>
+  <li>Phones</li>
+  <li>Tablets
+And many new channels we don’t even know about yet</li>
+</ul>
+
+<h1 id="developing-an-application">Developing An Application</h1>
+
+<p>Example Task: Chop Carrots</p>
+
+<ul>
+  <li>
+    <p>three images with machines</p>
+  </li>
+  <li>
+    <p>then knife</p>
+  </li>
+</ul>
+</p>
+      </div>
+    
+    <div class="container post">
+
+        
+        <h1 class="main display-3"><a href="/blog/2014/04/13/something.html">Lorem ipsum dolor sit amet</a></h1>
+        
+        <p class="lead">13 April 2014</p>
+        <p><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+<p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
+<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+
+<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
+</p>
+      </div>
+    
+    <div class="container post">
+
+        
+        <h1 class="main display-3"><a href="/blog/2013/09/14/htlextend-htltemplates.html">HTL Extend and HTL Template</a></h1>
+        
+        <p class="lead">14 September 2013</p>
+        <p><p>After publishing the Episode 2 “Give me back my Markup!” we got quite a momentum with the HTL Concept.</p>
+
+<p>HTL is a new Templating engine and language implementation. HTL endeavours to supersede JSP as scripting language for Apache Sling and CQ/AEM components and strives to clearly separate presentation and logic concerns. Security measures such as XSS prevention are automatically applied.</p>
+
+<p>Another major advantage of HTL is that it is based purely on HTML5, thus allowing 3rd party agencies to focus on design related parts of a CQ/AEM project without CQ/AEM knowledge. HTL is not limited to Java environments, through the pluggable compiler interface it can be implemented on many different platforms such as node.js and php.</p>
+
+<p>The Adobe.com refactor Teams are already developing components based on HTL. We received many request to opensource it, thus we started the processes and will make it available for you soon.</p>
+
+<p>HTL is evolving more and more from a concept state to something seroius, you can expect a proper renaming soon. Stay tuned.</p>
+
+<h1 id="episode-3--htl-extend">Episode 3 – HTL Extend</h1>
+
+<p>At the Evovle’13 conference I presented HTL the first time to a live audience. The Feedback and Input was amazing and it really looks like you can benefit a great deal from our internal adobe.com efforts.</p>
+
+<p>In this episode I am introducing the HTL Extend block statement and answering the question if you can mix existing JSP code with HTL.</p>
+
+<div class="videoWrapper">
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/CXjLS8myJAI?list=PLkBe8kbE_7-xeo5uNJVE4uZXRpOpCA0J8" frameborder="0" allowfullscreen=""></iframe></div>
+
+<h1 id="episode-4--htl-template">Episode 4 – HTL Template</h1>
+
+<p>In the latest episode I am inroducing the HTL Template block statement and how how you can do recursions with HTL.</p>
+<div class="videoWrapper">
+<iframe width="854" height="480" src="https://www.youtube.com/embed/xj0KHBYQbZ4?list=PLkBe8kbE_7-xeo5uNJVE4uZXRpOpCA0J8" frameborder="0" allowfullscreen=""></iframe></div>
+</p>
+      </div>
+    
+    <div class="container post">
+
+        
+        <h1 class="main display-3"><a href="/blog/2013/08/21/givemebackmymarkup.html">GIVE ME BACK MY MARKUP!</a></h1>
+        
+        <p class="lead">21 August 2013</p>
+        <p><div class="videoWrapper">
+<iframe width="854" height="480" src="https://www.youtube.com/embed/ugqcqr6uZrg?list=PLkBe8kbE_7-xeo5uNJVE4uZXRpOpCA0J8" frameborder="0" allowfullscreen=""></iframe>
+</div>
+</p>
+      </div>
+    
+
+    <!-- Pagination links -->
+
+
+
+<div class="container">
+
+
+  <ul class="pagination  justify-content-end">
+    <li class="page-item  disabled">
+      <a class="page-link" href="" tabindex="-1">Previous</a>
+    </li>
+
+    
+    <li class="page-item active">
+      
+     <a class="page-link" href="">1</a>
+     
+  </li>
+    
+    <li class="page-item ">
+      
+     <a class="page-link" href="/blog/page2/">2</a>
+    
+  </li>
+    
+
+    <li class="page-item ">
+      <a class="page-link" href="/blog/page2/">Next</a>
+    </li>
+  </ul>
+
+</div>
+<!--  -->
+
+
+
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
+

@@ -1,13 +1,10 @@
 ---
-layout: page
-title: About
+layout: post
+title: "About this Blog"
+navTitle: About
 permalink: /about/
+navigation_weight: 1
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-[jekyll](https://github.com/jekyll/jekyll)
+<!-- &#350;enol-->
+TODO
